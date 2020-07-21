@@ -13,10 +13,10 @@ header {
 footer {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .header__logo {
-  font-size: 21px;
+  font-size: 22px;
 }
 
 .header__logo i {
@@ -53,4 +53,6 @@ footer {
 }
 .main__inform a {
   text-decoration: none;
+  color: blue;
+  font-size: 14px;
 }
