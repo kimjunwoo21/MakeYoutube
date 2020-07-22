@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -12,7 +13,6 @@ header {
 
 footer {
   display: flex;
-  align-items: center;
   justify-content: space-between;
 }
 .header__logo {
@@ -41,18 +41,117 @@ footer {
   color: white;
 }
 
+.main__inform {
+  width: 50%;
+}
 .main__inform ul {
   display: flex;
   flex-direction: row;
   list-style: none;
-  padding: 0px 12px;
+  margin: 0;
+  padding: 8px 12px;
 }
 
 .main__inform li {
   padding: 0px 4px;
 }
+
 .main__inform a {
   text-decoration: none;
   color: blue;
   font-size: 14px;
+}
+
+.intro {
+  display: flex;
+  align-items: center;
+  padding: 0px 12px;
+}
+
+.intro p {
+  margin: 0;
+}
+
+.intro i {
+  margin: 0;
+  color: gray;
+}
+.view {
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 11px;
+  color: gray;
+}
+
+.ctrlBar {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 12px;
+}
+
+.ctrlBar a {
+  text-decoration: none;
+  color: grey;
+  font-size: 20px;
+}
+
+.ctrlBar p {
+  margin: 0;
+  font-size: 13px;
+  padding: 8px 0px;
+}
+
+.ctrlBar__good,
+.ctrlBar__bad,
+.ctrlBar__report,
+.ctrlBar__save,
+.ctrlBar__share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 12px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile__name {
+  padding: 0px 4px;
+}
+
+.profile__name a {
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+}
+
+.profile__name p {
+  margin: 0;
+  font-size: 14px;
+  color: grey;
+}
+
+.subsribe {
+  text-decoration: none;
+  color: black;
+}
+
+.main__list {
+  margin: 0;
+  width: 50%;
+}
+
+.main__list a {
+  padding: 0px 12px;
+  font-size: 15px;
+  text-decoration: none;
+  color: gray;
 }
